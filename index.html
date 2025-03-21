@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragdoll Break - Physics Puzzle Game | BitPlayLab.online</title>
+    <meta name="description" content="Play Ragdoll Break, an addictive physics-based puzzle game where you break ragdolls in creative ways. Challenge yourself with various levels and obstacles.">
+    <link rel="canonical" href="https://bitplaylab.online/ragdoll-break">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+        }
+        .game-container {
+            aspect-ratio: 16/9;
+            max-width: 100%;
+            height: auto;
+        }
+        @media (max-width: 768px) {
+            .game-container {
+                aspect-ratio: 4/3;
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <header class="bg-white shadow-sm">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex justify-between items-center">
+                <a href="/" class="text-2xl font-bold text-gray-900">BitPlayLab</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <h1 class="text-4xl font-bold text-center mb-4">Ragdoll Break</h1>
+        <p class="text-xl text-center text-gray-600 mb-8">Break physics-based ragdolls in this addictive puzzle game!</p>
+
+        <div class="bg-white rounded-lg shadow-lg p-4 mb-8">
+            <div class="game-container mx-auto">
+                <iframe 
+                    src="https://games.crazygames.com/en_US/ragdoll-break/index.html?v=1.326" 
+                    class="w-full h-full border-0 rounded-lg"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <section class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-semibold mb-4">About the Game</h2>
+                <p class="text-gray-600 mb-4">
+                    Ragdoll Break is an engaging physics-based puzzle game that challenges your problem-solving skills. 
+                    Your objective is to break ragdolls in creative ways by manipulating various objects and forces.
+                </p>
+                <p class="text-gray-600">
+                    With its realistic physics engine and intuitive controls, the game offers a unique gaming experience 
+                    that keeps you coming back for more.
+                </p>
+            </section>
+
+            <section class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-semibold mb-4">Game Features</h2>
+                <ul class="list-disc list-inside text-gray-600 space-y-2">
+                    <li>Realistic physics engine</li>
+                    <li>Multiple challenging levels</li>
+                    <li>Creative puzzle-solving gameplay</li>
+                    <li>Responsive controls</li>
+                    <li>Engaging visual effects</li>
+                </ul>
+            </section>
+        </div>
+
+        <section class="mt-8 bg-white rounded-lg shadow-lg p-6">
+            <h2 class="text-2xl font-semibold mb-4">How to Play</h2>
+            <p class="text-gray-600 mb-4">
+                Use your mouse or touch screen to interact with objects in the game. Click and drag to move objects, 
+                and release to let physics take over. Your goal is to break the ragdoll in the most creative way possible.
+            </p>
+            <p class="text-gray-600">
+                Each level presents unique challenges and obstacles. Think strategically about how to use the available 
+                objects and forces to achieve your goal.
+            </p>
+        </section>
+    </main>
+
+    <footer class="bg-white border-t mt-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <p class="text-center text-gray-500">© 2024 BitPlayLab.online. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
